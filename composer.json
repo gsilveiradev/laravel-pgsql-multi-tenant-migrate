@@ -1,0 +1,23 @@
+{
+  "name": "guissilveira/laravel-pgsql-multi-tenant-migrate",
+  "type": "library",
+  "description" : "Laravel Artisan command to migrate postgres multi tentant",
+  "keywords": ["laravel", "artisan", "command", "migrate", "postgres", "tenant", "multi-tenancy"],
+  "license": "MIT",
+  "homepage" : "https://github.com/guissilveira",
+  "authors": [
+    {
+      "name" : "Guilherme Silveira da Silva",
+      "role" : "Web Developer",
+      "email" : "guissilveira@gmail.com"
+    }
+  ],
+  "require": {
+    "pacuna/schemas": "dev-master",
+  },
+  "autoload": {
+    "psr-4": {
+      "Guissilveira\\Laravel\\Commands\\": "src"
+    }
+  }
+}
