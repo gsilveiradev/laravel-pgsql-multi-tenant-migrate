@@ -1,9 +1,9 @@
 <?php
 
-namespace Guissilveira\Laravel\Commands
+namespace Guissilveira\Laravel\Commands;
 
 use Illuminate\Console\Command;
-use Pacuna\Schemas\Facades\PGSchema
+use Pacuna\Schemas\Facades\PGSchema;
 use DB;
 
 class TenantMigrationCommand extends Command
